@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0" version="28.2.0" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0" version="28.2.0" pages="4">
   <diagram name="Training-time attention mask" id="mrCKsDTzWILt050IC8Hd">
     <mxGraphModel dx="1385" dy="952" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="0" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
       <root>
@@ -652,10 +652,24 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WHnq7yTZu5tbZ8tHj3C4" name="Page-3">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="1385" dy="952" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="EBrM8yvyCjdqOAENUPXj-1" value="" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="200" width="40" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="y_hGK9kTMQMv00jgGRLk" name="Page-4">
+    <mxGraphModel dx="1385" dy="952" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gKydSNY3k68wYz2hsIEX-1" value="&lt;div align=&quot;justify&quot;&gt;$$\mathcal{L}(\theta) = -\mathbb{E}_{t, \boldsymbol{x}_{0}, \boldsymbol{x}_{t}} \left[ \frac{1}{t} \sum_{i=1}^{L} \mathbf{1}[x_{t}^{i} = [\text{MASK}]] \log p_{\theta}(x_{0}^{i} | \boldsymbol{x}_{t}) \right]$$&lt;/div&gt;" style="text;html=1;verticalAlign=top;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="285" y="354" width="600" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
